@@ -1,1 +1,13 @@
-np-quiz-style.css
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    width: 80%;
+    height: 100vh;
+
+
+
+
+}
