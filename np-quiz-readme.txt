@@ -1,3 +1,5 @@
+![Screenshot of quiz](/Picture3.png)
+
 National Parks Quiz
 Choose a self-explaining name for your project.
 
