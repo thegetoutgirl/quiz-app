@@ -6,6 +6,7 @@
 #headline {
     font-size: 32px;
     width: 100dvh;
+    font-weight: strong;
 }
 body {
     display: flex;
