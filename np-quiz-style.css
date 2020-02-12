@@ -1,13 +1,54 @@
 *, *::before, *::after{
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
 }
-
+#headline {
+    font-size: 32px;
+    width: 100dvh;
+}
 body {
+    display: flex;
     width: 80%;
     height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 
+.quiz {
+    width: 600px;
+    max-width: 60%;
+    background-color: rgb(183, 212, 236);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
 
+.btn-list {
+    display: grid;
+    grid-template-columns: 1, auto;
+    gap: 10px;
+    margin: 20px;
+}
 
+.btn {
+    border: 1px, blue;
+    border-radius: 5 px;
+    padding: 5px 10px;
+}
 
+.start-btn, .next-btn {
+    font-size: 24pt;
+    font-weight: bold;
+    padding: 10px 20px;
+
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide {
+    display: none;
 }
