@@ -17,13 +17,12 @@ Answer the questions, learn something maybe.
 
 ## Roadmap
 Still to do:
-- Add onclick functions to proceed to next question. 
 - Add onclick functions to record high scores.
 - Add a timer. I researched this but had trouble with git, and matching up the functions, I just ran out of time.
 - Create the counter/highscores function
 - Want to remove question shuffling
 - Have bonus info I'd like to figure out how to display at the bottom of the quiz.
-- Also would like to add a background of Half Dome but there's really no time for that.
+- Also would like to add a background image but there's really no time for that.
 
 
 Link: https://thegetoutgirl.github.io/quiz-app/
