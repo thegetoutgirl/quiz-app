@@ -9,6 +9,8 @@
     font-weight: strong;
 }
 body {
+    padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -34,16 +36,29 @@ body {
 }
 
 .btn {
-    border: 1px, blue;
-    border-radius: 5 px;
+    border: 1px, solid, black;
+    border-radius: 10px;
     padding: 5px 10px;
+    outline: none;
+
+}
+.btn.correct {
+    background-color: #058132;
+    color: white;
+    font-weight: bold;
+}
+
+.btn.wrong {
+    background-color: #c04223;
+    color: white;
+    font-weight: bold;
+
 }
 
 .start-btn, .next-btn {
     font-size: 24pt;
     font-weight: bold;
     padding: 10px 20px;
-
 }
 
 .controls {
